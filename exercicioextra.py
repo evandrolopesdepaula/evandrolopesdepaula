@@ -1,5 +1,5 @@
-#Fazer uma lista com 100 palavras, e solicitar que o computador acerte a palavra, que foi
-# escolhida pelo usuário.
+#Fazer uma lista com 100 palavras, e solicitar que o computador acerte
+#a palavra que foi escolhida pelo usuário.
 
 import random
 
