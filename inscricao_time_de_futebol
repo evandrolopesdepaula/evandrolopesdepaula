@@ -1,0 +1,16 @@
+altura = float(input('Digite sua altura:'))
+peso = float(input('Digite seu peso:'))
+imc = peso/(altura * altura)
+print('Seu índice de massa corporal é {:.2f}'.format(imc))
+if imc > 24.9:
+    print("Normalize sua forma física e só depois volte a se inscrever .")
+treino = int(input("Quantas vezes você treina por semana?"))
+minutos = int(input("Aproximadamente quantos minutos por sessão de treino?"))
+if imc < 24.9 and minutos * treino  >= 300:
+    print("Parabéns, você passou em todos os nossos testes, agora você fará um teste pessoal em nossa sede!","\n",
+          " Favor comparecer ao endereço: Rua dos Atletas, 43, Bairro do Futebol. Nos vemos lá!")
+else:
+    print("Muito obrigado, agradecemos a sua participação!")
+
+
+
